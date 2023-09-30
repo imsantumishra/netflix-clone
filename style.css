@@ -20,6 +20,11 @@ html, body{
     position: relative;
 }
 #main-section{
+    display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        color: #fff;
     position: absolute;
     top: 50%;
    
@@ -86,3 +91,65 @@ html, body{
     background-color: rgb(229, 9, 20);
 }
 
+@media only screen and (max-width: 450px) {
+    *{
+        padding: 0;
+        margin:0;
+        box-sizing: border-box;
+    }
+    img, svg {
+        position: relative;
+        vertical-align: middle;
+        left: 21%;
+    }
+    #sign-btn{
+        left: 30%;
+    }
+    #main-section {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+       position: absolute;
+       top: 25%;
+    }
+    #main-section h1{
+        position: relative;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        font-size: 1.9rem;
+        width: 80%;
+        left: -9%;
+        
+    }
+    #main-section span {
+        position: relative;
+        text-align: center;
+        font-size: rem;
+        width: 80%;
+        left: -9%;
+    }
+    #main-section p {
+        position: relative;
+        text-align: center;
+        /* font-size: rem; */
+        width: 80%;
+        left: -9%;
+    }
+   
+
+    #main-section input{
+        
+        width: 300px;
+        outline-color: white;
+        color: #fff;
+       
+    }
+    
+#main-section button{
+    width: 300px;
+    background-color: rgb(229, 9, 20);
+}
+}
