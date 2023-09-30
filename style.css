@@ -54,3 +54,11 @@ html, body{
     position: relative;
 }
 
+.second-sec-2{
+    background: #000;
+    
+}
+.second-sec-2 .container{
+    width: 60%;
+    height:100%;
+}
