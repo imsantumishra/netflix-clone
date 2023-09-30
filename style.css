@@ -48,7 +48,9 @@ html, body{
 
 .second-section{
     background: #000;
-    height: 530px;
+    height: 450px;
+}
+.second-section img{
+    position: relative;
 }
 
-    
