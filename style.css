@@ -62,3 +62,27 @@ html, body{
     width: 75%;
     height:100%;
 }
+
+#footer-section{
+    position: relative;
+    /* top: 50%; */
+   
+}
+#footer-section h1{
+    font-size: 3rem;
+    
+}
+#footer-section input{
+    width: 400px;
+    outline-color: white;
+    color: #fff;
+
+    /* background: transparent; */
+    /* background-color: #fa0000; */
+}
+
+#footer-section button{
+    width: 200px;
+    background-color: rgb(229, 9, 20);
+}
+
