@@ -105,6 +105,7 @@ body {
 #footer-section {
     position: relative;
     /* top: 50%; */
+    width: 100%
 
 }
 
@@ -114,7 +115,7 @@ body {
 }
 
 #footer-section input {
-    width: 400px;
+    width: 400px;   
     outline-color: white;
     color: #fff;
 
@@ -187,11 +188,13 @@ body {
         width: 95%;
         /* left: -9%; */
     }
-
+    #main-section{
+        width: 100%;
+    }
 
     #main-section input {
 
-        width: 300px;
+        width:00px;
         outline-color: white;
         color: #fff;
 
@@ -259,5 +262,18 @@ body {
         justify-content: center;
         align-items: center;
         left: 20%;
+    }
+
+    #footer-section form{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        width: 90%;
+    }
+    #footer-section input{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-self: center;
     }
 }
