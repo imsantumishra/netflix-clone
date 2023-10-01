@@ -1,83 +1,93 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-html, body{
+
+html,
+body {
     width: 100%;
     height: 100%;
     background: #232323;
-  
-  
+
+
 }
-.main{
+
+.main {
     width: 100%;
     height: 100vh;
-    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url(./image/bg-image.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(./image/bg-image.jpg);
     background-size: cover;
     background-position: center;
     padding: 10px 8%;
     position: relative;
 }
-#main-section{
+
+#main-section {
     display: flex;
-        align-items: center;
-        justify-content: center;
-        flex-direction: column;
-        color: #fff;
-    position: absolute;
-    top: 50%;
-   
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: #fff;
+    position: relative;
+    top: 30%;
+
 }
-#main-section h1{
+
+#main-section h1 {
     font-size: 3rem;
-    
+
 }
-#main-section input{
+
+#main-section input {
     width: 400px;
     outline-color: white;
     color: #fff;
-    
+
     /* background: transparent; */
     /* background-color: #fa0000; */
 }
 
-#main-section button{
+#main-section button {
     width: 200px;
     background-color: rgb(229, 9, 20);
 }
-    
-#sub-btn{
+
+#sub-btn {
     width: 200px;
 }
 
-.second-section{
+.second-section {
     background: #000;
     height: 450px;
 }
-.second-section img{
+
+.second-section img {
     position: relative;
 }
 
-.second-sec-2{
+.second-sec-2 {
     background: #000;
-    
-}
-.second-sec-2 .container{
-    width: 75%;
-    height:100%;
+
 }
 
-#footer-section{
+.second-sec-2 .container {
+    width: 75%;
+    height: 100%;
+}
+
+#footer-section {
     position: relative;
     /* top: 50%; */
-   
+
 }
-#footer-section h1{
+
+#footer-section h1 {
     font-size: 3rem;
-    
+
 }
-#footer-section input{
+
+#footer-section input {
     width: 400px;
     outline-color: white;
     color: #fff;
@@ -86,70 +96,83 @@ html, body{
     /* background-color: #fa0000; */
 }
 
-#footer-section button{
+#footer-section button {
     width: 200px;
     background-color: rgb(229, 9, 20);
 }
 
 @media only screen and (max-width: 450px) {
-    *{
+    * {
         padding: 0;
-        margin:0;
+        margin: 0;
         box-sizing: border-box;
     }
-    img, svg {
+
+    img,
+    svg {
         position: relative;
         vertical-align: middle;
-        left: 21%;
+        /* left: 21%; */
+        width: 250px;
     }
-    #sign-btn{
-        left: 30%;
+    .navbar>.container, .navbar>.container-fluid, .navbar>.container-lg, .navbar>.container-md, .navbar>.container-sm, .navbar>.container-xl, .navbar>.container-xxl {
+        display: flex;
+        flex-wrap: inherit;
+        align-items: center;
+        justify-content: center;
     }
+
+    #sign-btn {
+        /* left: 30%; */
+    }
+
     #main-section {
         display: flex;
         align-items: center;
         justify-content: center;
-
-       position: absolute;
-       top: 25%;
+        position: relative;
+        top: 5%;
     }
-    #main-section h1{
+
+    #main-section h1 {
         position: relative;
         display: flex;
         align-items: center;
         justify-content: center;
         text-align: center;
         font-size: 1.9rem;
-        width: 80%;
-        left: -9%;
-        
+        width: 95%;
+        /* left: -9%; */
+
     }
+
     #main-section span {
         position: relative;
         text-align: center;
-        font-size: rem;
-        width: 80%;
-        left: -9%;
+        /* font-size: rem; */
+        width: 95%;
+        /* left: -9%; */
     }
+
     #main-section p {
         position: relative;
         text-align: center;
         /* font-size: rem; */
-        width: 80%;
-        left: -9%;
+        width: 95%;
+        /* left: -9%; */
     }
-   
 
-    #main-section input{
-        
+
+    #main-section input {
+
         width: 300px;
         outline-color: white;
         color: #fff;
-       
+
     }
-    
-#main-section button{
-    width: 300px;
-    background-color: rgb(229, 9, 20);
-}
+
+    #main-section button {
+        width: 300px;
+        background-color: rgb(229, 9, 20);
+    }
 }
