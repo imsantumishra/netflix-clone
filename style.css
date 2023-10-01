@@ -60,12 +60,38 @@ body {
 .second-section {
     background: #000;
     height: 450px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.second-sec-a{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
 }
 
-.second-section img {
+.img-1 {
+    width: 500px;
     position: relative;
 }
-
+.second-section .img-2 {
+    width: 300px;
+    position: relative;
+}
+.second-section .img-3 {
+    width: 400px;
+    position: relative;
+}
+.second-section .img-4 {
+    width: 400px;
+    position: relative;
+}
+.second-section p{
+    width: 85%;
+}
+.sec-p-4{
+    width: 85%;
+}
 .second-sec-2 {
     background: #000;
 
@@ -174,5 +200,64 @@ body {
     #main-section button {
         width: 300px;
         background-color: rgb(229, 9, 20);
+    }
+
+    /* Section 2 */
+
+    .second-section {
+        background: #000;
+        height: 450px;
+        display: flex;
+        flex-direction: column;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-direction: column;
+    }
+    .second-sec-a{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-direction: column;
+        position: relative;
+        left: -15%;
+    }
+    .second-section .img-1 {
+        position: relative;
+        width: 350px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        left: -11%;
+    }
+    .second-section p{
+        width: 300px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    .sec-p-all{
+        text-align: center;
+    }
+    .second-section .img-2 {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 200px;
+        left: 25%;
+        position: relative;
+    }
+    .second-section .img-3 {
+        width: 300px;
+        position: relative;
+    }
+    .second-section .img-4 {
+        width: 250px;
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        left: 20%;
     }
 }
