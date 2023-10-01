@@ -98,7 +98,7 @@ body {
 }
 
 .second-sec-2 .container {
-    width: 75%;
+    width: 100%;
     height: 100%;
 }
 
@@ -167,7 +167,7 @@ body {
         align-items: center;
         justify-content: center;
         text-align: center;
-        font-size: 1.9rem;
+        font-size: 1.6rem;
         width: 95%;
         /* left: -9%; */
 
@@ -191,10 +191,9 @@ body {
     #main-section{
         width: 100%;
     }
-
     #main-section input {
 
-        width:00px;
+        width:300px;
         outline-color: white;
         color: #fff;
 
@@ -268,7 +267,7 @@ body {
         display: flex;
         justify-content: space-around;
         align-items: center;
-        width: 90%;
+        /* width: 90%; */
     }
     #footer-section input{
         width: 100%;
