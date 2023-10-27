@@ -127,7 +127,7 @@ body {
 }
 
 #footer-section input::placeholder{
-    color: #fff;
+    color: #fff+;
 }
 
 #footer-section button {
