@@ -8,9 +8,30 @@ html,
 body {
     width: 100%;
     height: 100%;
-    background: #232323;
+    background-color:#232323;
 
 
+}
+
+:root{
+    --primary-color: #f6f9ff;
+    --secondary-color: #000;
+    --footer-color: #000;
+
+    
+}
+.light-theme{
+        --primary-color: #000;
+        --secondary-color: #f6f9ff;
+        --footer-color: #fff;
+
+}
+
+
+#icon{
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
 }
 
 .main {
@@ -21,6 +42,10 @@ body {
     background-position: center;
     padding: 10px 8%;
     position: relative;
+}
+.main form{
+    flex: 1;
+    text-align: right;
 }
 
 #main-section {
@@ -61,7 +86,7 @@ body {
 }
 
 .second-section {
-    background: #000;
+    background: var(--secondary-color);
     height: 450px;
     display: flex;
     align-items: center;
@@ -89,15 +114,21 @@ body {
     width: 400px;
     position: relative;
 }
-.second-section p{
+.second-section div p{
     width: 85%;
+    color: var(--primary-color);
 }
+
 .sec-p-4{
     width: 85%;
+    color: var(--primary-color);
 }
 .second-sec-2 {
-    background: #000;
+    background: var(--footer-color);
 
+}
+.second-sec-2 div p{
+    color: var(--primary-color);
 }
 
 .second-sec-2 .container {
@@ -116,18 +147,21 @@ body {
     font-size: 3rem;
 
 }
+#footer-section p{
+    color: var(--primary-color);
+}
 
 #footer-section input {
     width: 400px;   
-    outline-color: white;
-    color: #fff;
+    outline-color: var(--primary-color);
+    color: var(--primary-color);
 
     /* background: transparent; */
     /* background-color: #fa0000; */
 }
 
 #footer-section input::placeholder{
-    color: #fff+;
+    color: var(--primary-color);
 }
 
 #footer-section button {
