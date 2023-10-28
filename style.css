@@ -45,6 +45,7 @@ display: none;
 }
 .discount{
     width: 250px;     
+    align-items: center;
 }
 #popupbox button{
     background-color: #e50914;
@@ -356,5 +357,9 @@ display: none;
         display: flex;
         align-items: center;
         justify-self: center;
+    }
+    .second-section div p{
+        /* width: 85%; */
+        color: var(--primary-color);
     }
 }
