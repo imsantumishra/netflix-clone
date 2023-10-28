@@ -15,7 +15,14 @@
   <title>Netflix India – Watch TV Shows Online, Watch Movies Online</title>
 </head>
 
-<body>
+<body onload="showPop()">
+  <div id="popupbox">
+    <img src="image/50-discount.png" class="discount">
+    <p></p>
+    <button type="button" onclick="closeModel()">Accept</button>
+    <img src="image/close.png" class="close-icon" onclick="closeModel()">
+  </div>
+
   <div class="main">
     <header class="container">
       <nav class="navbar navbar-light">

@@ -8,3 +8,14 @@ icons.onclick = function () {
         icons.src="image/sun.png";
     }
 };
+
+let popup = document.getElementById("popupbox");
+function showPop(){
+    setTimeout(() => {
+        popup.style.display="block";
+    }, 2000)
+}
+
+function closeModel(){
+    popup.style.display="none";
+}

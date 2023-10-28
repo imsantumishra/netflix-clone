@@ -27,6 +27,47 @@ body {
 
 }
 
+#popupbox{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 80%;
+    max-width: 400px;
+    text-align: center;
+    padding: 80px 60px;
+    font-size: 20px;
+    z-index: 1;
+    background:rgba(255, 255, 255, 0.26);
+    backdrop-filter: saturate(180%) blur(10px);
+border-radius: 8px;
+display: none;
+}
+.discount{
+    width: 250px;     
+}
+#popupbox button{
+    background-color: #e50914;
+    color: #fff;
+    padding: 15px 0;
+    border-radius: 4px;
+    font-size: 20px;
+    font-weight: 500;
+    width: 100%;
+    border: 0;
+    outline: 0;
+    cursor: pointer;
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.2);
+}
+.close-icon{
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    top: 25px;
+    right: 25px;
+    cursor: pointer;
+}
+
 
 #icon{
     width: 30px;
@@ -78,7 +119,7 @@ body {
 
 #main-section button {
     width: 200px;
-    background-color: rgb(229, 9, 20);
+    background-color: #e50914;
 }
 
 #sub-btn {
